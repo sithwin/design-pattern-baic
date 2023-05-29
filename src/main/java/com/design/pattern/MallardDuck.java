@@ -1,21 +1,21 @@
 package com.design.pattern;
 
-import com.design.pattern.flyBehaviour.Flyable;
-import com.design.pattern.quackBehaviour.Quackable;
+import com.design.pattern.flyBehaviour.FlyBehaviour;
+import com.design.pattern.quackBehaviour.QuackBehaviour;
 
 public class MallardDuck extends Duck {
-  Quackable quackable;
-  Flyable flyable;
+  QuackBehaviour quackBehaviour;
+  FlyBehaviour flyBehaviour;
 
-  public MallardDuck(Flyable flyable, Quackable quackable) {
-    this.quackable = quackable;
-    this.flyable = flyable;
+  public MallardDuck(FlyBehaviour flyBehaviour, QuackBehaviour quackBehaviour) {
+    this.quackBehaviour = quackBehaviour;
+    this.flyBehaviour = flyBehaviour;
   }
 
   @Override
   void display() {
     System.out.println("MallarDuck");
-    flyable.fly();
-    quackable.quack();
+    flyBehaviour.fly();
+    quackBehaviour.quack();
   }
 }

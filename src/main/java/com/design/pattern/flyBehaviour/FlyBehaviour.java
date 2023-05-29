@@ -1,5 +1,5 @@
 package com.design.pattern.flyBehaviour;
 
-public interface Flyable {
+public interface FlyBehaviour {
   void fly();
 }

@@ -1,7 +1,7 @@
 package com.design.pattern;
 
 import com.design.pattern.flyBehaviour.FlyWithWings;
-import com.design.pattern.quackBehaviour.NormalQuack;
+import com.design.pattern.quackBehaviour.Quack;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -11,13 +11,13 @@ public class PatternApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(PatternApplication.class, args);
 		FlyWithWings flyWithWings = new FlyWithWings();
-		NormalQuack normalQuack = new NormalQuack();
+		Quack quack = new Quack();
 
-		MallardDuck mallardDuck = new MallardDuck(flyWithWings, normalQuack);
+		MallardDuck mallardDuck = new MallardDuck(flyWithWings, quack);
 		mallardDuck.display();
 
 
-		RedheadDuck redheadDuck = new RedheadDuck(flyWithWings, normalQuack);
+		RedheadDuck redheadDuck = new RedheadDuck(flyWithWings, quack);
 		redheadDuck.display();
 
 		RubberDuck rubberDuck = new RubberDuck();
