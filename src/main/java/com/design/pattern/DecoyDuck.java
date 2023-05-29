@@ -1,10 +1,8 @@
 package com.design.pattern;
 
-public class DecoyDuck extends Duck implements Flyable {
-  void quack() {
-    // do nothing
-  }
+import com.design.pattern.flyBehaviour.Flyable;
 
+public class DecoyDuck extends Duck {
   public void fly() {
     System.out.println("Fly");
   }
