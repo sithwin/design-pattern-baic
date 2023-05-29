@@ -16,8 +16,10 @@ public class PatternApplication {
 		redheadDuck.display();
 
 		RubberDuck rubberDuck = new RubberDuck();
-		rubberDuck.display();
-		redheadDuck.fly();  // should not fly
+		rubberDuck.fly();  // should not fly
+
+		DecoyDuck decoyDuck = new DecoyDuck();
+		decoyDuck.quack(); // should not quack
 	}
 
 }

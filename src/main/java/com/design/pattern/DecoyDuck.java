@@ -1,8 +1,8 @@
 package com.design.pattern;
 
-public class RubberDuck extends Duck{
+public class DecoyDuck extends Duck {
   @Override
-  void fly() {
+  void quack() {
     // do nothing
   }
 }
