@@ -10,4 +10,8 @@ public class Duck {
   void display(){
     System.out.println("display");
   }
+
+  void fly() {
+    System.out.println("Fly");
+  }
 }

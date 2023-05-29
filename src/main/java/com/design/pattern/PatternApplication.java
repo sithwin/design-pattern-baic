@@ -14,6 +14,10 @@ public class PatternApplication {
 
 		RedheadDuck redheadDuck = new RedheadDuck();
 		redheadDuck.display();
+
+		RubberDuck rubberDuck = new RubberDuck();
+		rubberDuck.display();
+		redheadDuck.fly();  // should not fly
 	}
 
 }
