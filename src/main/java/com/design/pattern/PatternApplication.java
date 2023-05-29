@@ -8,6 +8,12 @@ public class PatternApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PatternApplication.class, args);
+
+		MallardDuck mallardDuck = new MallardDuck();
+		mallardDuck.display();
+
+		RedheadDuck redheadDuck = new RedheadDuck();
+		redheadDuck.display();
 	}
 
 }
