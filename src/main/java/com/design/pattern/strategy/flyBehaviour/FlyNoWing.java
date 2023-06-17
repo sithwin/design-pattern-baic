@@ -1,4 +1,4 @@
-package com.design.pattern.flyBehaviour;
+package com.design.pattern.strategy.flyBehaviour;
 
 public class FlyNoWing implements FlyBehaviour{
   @Override

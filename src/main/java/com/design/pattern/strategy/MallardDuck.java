@@ -1,7 +1,7 @@
-package com.design.pattern;
+package com.design.pattern.strategy;
 
-import com.design.pattern.flyBehaviour.FlyBehaviour;
-import com.design.pattern.quackBehaviour.QuackBehaviour;
+import com.design.pattern.strategy.flyBehaviour.FlyBehaviour;
+import com.design.pattern.strategy.quackBehaviour.QuackBehaviour;
 
 public class MallardDuck extends Duck {
   QuackBehaviour quackBehaviour;

@@ -1,7 +1,7 @@
-package com.design.pattern;
+package com.design.pattern.strategy;
 
-import com.design.pattern.flyBehaviour.FlyWithWings;
-import com.design.pattern.quackBehaviour.Quack;
+import com.design.pattern.strategy.flyBehaviour.FlyWithWings;
+import com.design.pattern.strategy.quackBehaviour.Quack;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
